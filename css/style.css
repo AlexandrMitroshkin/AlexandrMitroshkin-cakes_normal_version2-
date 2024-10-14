@@ -1,0 +1,143 @@
+body{
+    font-family:"Playfair Display", serif;
+    font-size: 20px;
+    line-height:27px;
+    color: #2E2829;
+    background-color: #FBEBEA;
+}
+
+.site-navigation-item a{
+    font-size: 13px;
+    line-height:16px ;
+    color: #2E2829;
+    text-transform:uppercase;
+    text-decoration: none;
+}
+
+.site-navigation li:nth-child(2) a{
+    color: #F50049; 
+}
+
+.phone{
+    text-decoration: none;
+    color: #2E2829;
+    font-weight: 700;
+    line-height: 16px;
+    font-size:13px ;
+}
+
+h1{
+    font-weight: 700;
+    font-size: 78px;
+    line-height:70px ;
+}
+
+.promo p{
+    font-style: italic;
+    font-size:40px;
+    line-height:53px
+}
+
+.button{
+    font-size: 13px;
+    color: #FFFFFF;
+    background-color: #F50049;
+    text-decoration: none;
+    font-weight: 700;
+    text-transform:uppercase;
+}
+
+.features{
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.catalog h2{
+    font-size: 40px;
+    line-height:66px ;
+}
+
+.catalog h3{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.catalog a{
+    font-size: 18px;
+    line-height: 24px;
+    text-decoration: none;
+    color: #2E2829;
+}
+
+.reviews h2{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 66px;
+    text-align:center;
+}
+
+.review h3{
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 36px;
+}
+
+.review-info{
+    font-size: 25px;
+    line-height: 33px;
+}
+
+.advantages h2 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 66px;
+    text-align: center;
+}
+
+.advantages-text{
+    font-style: italic;
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.advantages-list h3{
+    font-weight: 700;
+}
+
+.contacts h2{
+    font-weight: 700;
+    font-size:40px;
+    line-height: 66px;
+}
+
+.contact-item h3{
+    font-weight: 700;
+}
+
+.contact-item a{
+    text-decoration: none;
+    color: #2E2829;
+}
+
+.footer-navigation-item a{
+    font-weight: 400;
+    font-size: 13px;
+    line-height:16px ;
+    text-decoration: none;
+    color: #2E2829;
+
+}
+
+footer{
+    background-color:#D0D0D0;
+
+}
+
+.copyright{
+    font-size: 13px;
+    line-height: 16px;
+    color:#888888;
+    
+}
