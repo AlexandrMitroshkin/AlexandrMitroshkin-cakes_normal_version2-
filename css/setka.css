@@ -1,11 +1,11 @@
 body{
-    margin:0 74px
+    margin: 0;
 }
 
 .page-header{
     display: grid;
     grid-template-columns: 3fr 1fr;
-    margin-top:  60px;
+    margin:60px 74px 25px 74px
 }
 
 .main-nav{
@@ -35,4 +35,64 @@ body{
 .phone{
     display: block;
     text-align: end;
+}
+
+
+
+
+
+
+.promo{
+    display:grid;
+    grid-template-columns:183px 261px 1fr ;
+    grid-template-columns: 1fr 1fr 2fr;
+    grid-template-areas: "promo-title promo-title promo-img"
+                         "promo-text promo-text promo-img"
+                         "button button promo-img"
+                         "nature delivery promo-img";
+    margin-left:74px
+
+    
+}
+
+.promo h1{ 
+    grid-area: promo-title;
+    margin-right:225px;
+    margin-bottom:25px
+
+}
+
+.promo p{
+    grid-area:promo-text;
+    margin-right:257px;
+    margin-bottom:87px
+}
+
+.button{
+    grid-area:button;
+    margin-right:371px;
+    margin-bottom:126px
+}
+
+.features{
+    margin: 0;
+    padding:0
+}
+
+.nature{
+    grid-area:nature;
+    margin-right:105px;
+
+}
+
+.delivery{
+    grid-area:delivery;
+    margin-right: 51px;
+}
+
+.promo img{
+    grid-area:promo-img;
+    width: 100%;
+    height: auto;
+    margin:0
 }
