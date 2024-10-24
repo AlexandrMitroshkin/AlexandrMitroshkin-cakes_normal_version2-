@@ -38,6 +38,14 @@ h1{
     line-height:53px
 }
 
+
+.promo_Our_cakes{
+    background-image:url("../img/cake-photo\ 1.png");
+    background-repeat: no-repeat;
+    background-position: 100% 0;
+
+}
+
 .button{
     font-size: 13px;
     color: #FFFFFF;

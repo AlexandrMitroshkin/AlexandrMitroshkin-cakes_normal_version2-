@@ -39,60 +39,63 @@ body{
 
 
 
-
-
-
 .promo{
-    display:grid;
-    grid-template-columns:183px 261px 1fr ;
-    grid-template-columns: 1fr 1fr 2fr;
-    grid-template-areas: "promo-title promo-title promo-img"
-                         "promo-text promo-text promo-img"
-                         "button button promo-img"
-                         "nature delivery promo-img";
-    margin-left:74px
+    display: flex;
+    flex-direction: column;
+    width: 484px;
 
-    
 }
 
-.promo h1{ 
-    grid-area: promo-title;
-    margin-right:225px;
-    margin-bottom:25px
+.promo_Our_cakes{
+    margin-left: 74px;
+}
 
+.promo h1{
+    width: 314px;
+    margin-top:155px ;
+    margin-bottom:25px ;
 }
 
 .promo p{
-    grid-area:promo-text;
-    margin-right:257px;
-    margin-bottom:87px
+    width: 278px;
+    margin-bottom:75px ;
+    
 }
 
 .button{
-    grid-area:button;
-    margin-right:371px;
-    margin-bottom:126px
+    display: block;
+    width: 226px;
+    margin-right:309px ;
+    margin-bottom:114px ;
+    /* justify-self: center; */
+    text-align:center;
+    border-radius:25px
 }
 
 .features{
+    display: flex;
+    list-style: none;
     margin: 0;
-    padding:0
+    padding: 0;
+    margin-bottom: 241px;
+
+}
+
+.features_img1{
+    margin: 0;
+    padding: 0;
+    margin-right: 10px;   
 }
 
 .nature{
-    grid-area:nature;
-    margin-right:105px;
-
+    margin: 0;
+    padding: 0;
+    margin-right: 40px;
 }
 
-.delivery{
-    grid-area:delivery;
-    margin-right: 51px;
+.features_img2{
+    margin: 0;
+    padding: 0;
+    margin-right: 10px;  
 }
 
-.promo img{
-    grid-area:promo-img;
-    width: 100%;
-    height: auto;
-    margin:0
-}
