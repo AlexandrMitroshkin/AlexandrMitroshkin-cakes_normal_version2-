@@ -67,7 +67,6 @@ body{
     width: 226px;
     margin-right:309px ;
     margin-bottom:114px ;
-    /* justify-self: center; */
     text-align:center;
     border-radius:25px
 }
@@ -98,4 +97,144 @@ body{
     padding: 0;
     margin-right: 10px;  
 }
+
+
+
+
+
+
+.catalog h2{
+    margin-bottom:55px ;
+
+}
+
+
+
+
+
+.cards{
+    display: grid;
+    grid-template-columns:696px 1fr ;
+    margin:0;
+    padding:0;
+    margin-right:74px ;
+    margin-left:74px;
+    margin-bottom: 100px;
+
+    grid-template-areas:"fist_card second_card "
+                        "fist_card third_card ";
+
+    row-gap: 38px;
+    column-gap:43px ;
+    list-style:none;
+}
+
+.fist_card{
+    grid-area:fist_card ;
+    height:653px ;
+
+
+}
+
+.second_card{
+    grid-area:second_card ;
+
+}
+
+.third_card{
+    grid-area:third_card ;
+
+}
+
+
+
+/* .cards li a , p , h3{
+    margin:0
+} */
+
+ .titles_of_cards{
+    margin-top:30px;
+    margin-left:35px ;
+}
+
+.text_of_cards{
+    margin-left:35px ;
+
+ }
+
+.links_of_cards{
+    display: block;
+    margin-bottom: 35px;
+    margin-right: 72px;
+    margin-left: 328px;
+    margin-top:157px ;
+    
+
+
+
+} 
+
+.links_of_cards1{
+    display: block;
+    margin-top:505px ;
+    margin-left: 540px;
+    text-decoration:none ;
+    text-transform:uppercase;
+
+}
+
+
+
+.reviews{
+    margin:323px ;
+    width: 720px;
+}
+
+.reviews_background_img{
+    align-items: end;
+}
+
+.review {
+    justify-self: end;
+    display: flex;
+    flex-direction: column;
+    width: 445px;
+    margin-bottom: 115px; 
+
+    /* margin-right: auto;
+    margin-left:auto ; */
+
+  }
+
+.review-info{
+    margin-bottom: 19px; 
+}
+
+/* .rewiew{
+    display: flex;
+    flex-direction:column ;
+    width: 445px;
+    margin-right: 323px;
+    margin-left: 323px;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    width:445px ;
+} */
+
+.review h3 , p{
+
+    margin: 0;
+    padding: 0;
+}
+
+.reviews h2{
+    text-align: center;
+}
+
+
+
+
+
+
 

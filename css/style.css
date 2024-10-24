@@ -43,6 +43,29 @@ h1{
     background-image:url("../img/cake-photo\ 1.png");
     background-repeat: no-repeat;
     background-position: 100% 0;
+    height:100%;
+
+}
+
+.fist_card{
+    background-image:url(../img/photo-1.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+}
+
+.second_card{
+    background-image:url(../img/photo-2.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+}
+
+.third_card{
+    background-image:url(../img/photo-3.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
 
 }
 
@@ -84,6 +107,19 @@ h1{
     line-height: 66px;
     text-align:center;
 }
+
+
+
+.reviews_background_img{
+    background-image:url(../img/Ellipse\ 1.jpg);
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    width: 210px;
+    height: 210px;
+    
+
+}
+
 
 .review h3{
     font-weight: 700;
