@@ -2,6 +2,9 @@ body{
     margin: 0;
 }
 
+
+/* Header and nav */
+
 .page-header{
     display: grid;
     grid-template-columns: 3fr 1fr;
@@ -37,6 +40,10 @@ body{
     text-align: end;
 }
 
+
+
+
+/* promo_Our_cakes (main(promo)) */
 
 
 .promo{
@@ -100,17 +107,13 @@ body{
 
 
 
-
+/* catalog/cards */
 
 
 .catalog h2{
     margin-bottom:55px ;
 
 }
-
-
-
-
 
 .cards{
     display: grid;
@@ -146,12 +149,6 @@ body{
 
 }
 
-
-
-/* .cards li a , p , h3{
-    margin:0
-} */
-
  .titles_of_cards{
     margin-top:30px;
     margin-left:35px ;
@@ -168,10 +165,6 @@ body{
     margin-right: 72px;
     margin-left: 328px;
     margin-top:157px ;
-    
-
-
-
 } 
 
 .links_of_cards1{
@@ -180,61 +173,211 @@ body{
     margin-left: 540px;
     text-decoration:none ;
     text-transform:uppercase;
-
 }
 
+
+
+
+/* rewies        */
 
 
 .reviews{
-    margin:323px ;
-    width: 720px;
-}
-
-.reviews_background_img{
-    align-items: end;
-}
-
-.review {
-    justify-self: end;
-    display: flex;
-    flex-direction: column;
-    width: 445px;
-    margin-bottom: 115px; 
-
-    /* margin-right: auto;
-    margin-left:auto ; */
-
-  }
-
-.review-info{
-    margin-bottom: 19px; 
-}
-
-/* .rewiew{
-    display: flex;
-    flex-direction:column ;
-    width: 445px;
-    margin-right: 323px;
-    margin-left: 323px;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    width: 100%;
     height: auto;
-    margin: 0;
-    padding: 0;
-    width:445px ;
-} */
-
-.review h3 , p{
-
-    margin: 0;
-    padding: 0;
+    margin-right: 323px;
+    margin-left:323px;
+    grid-template-columns:210px 510px ;
+    grid-template-areas:
+                         "reviews_title_h2 reviews_title_h2"
+                         "Ellipse_img review_title_h3 "
+                         "Ellipse_img review_info_1 "
+                         "Ellipse_img review_info_2";
+    column-gap: 65px;
+    row-gap:50px ;
+    margin-bottom: 115px;
 }
 
 .reviews h2{
-    text-align: center;
+    margin: 0;
+    padding: 0;
+    grid-area:reviews_title_h2;
+    margin-bottom:50px
+
+}
+
+.Ellipse_img{
+    margin: 0;
+    padding: 0;
+    grid-area:Ellipse_img;
+    margin-right:65px ;
+}
+
+.review h3{
+    margin: 0;
+    padding: 0;
+    grid-area:review_title_h3;
+
+}
+
+.review_info_1{
+    margin: 0;
+    padding: 0;
+    grid-area:review_info_1;
+    margin-bottom:19px ;
+    
+}
+
+.review_info_2{
+    margin: 0;
+    padding: 0;
+    grid-area:review_info_2
 }
 
 
 
 
+/* advantages grid version            !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!                                 */ 
 
 
+
+
+
+/* .advantages_main_grid{
+    display: grid;
+
+}
+
+.advantages-list{
+    width:498px ;
+    height: auto;
+    display: grid;
+    grid-template-columns: 55px 423px;
+
+    grid-template-areas:
+                        "advantages_mimi_img advantages_flex";
+
+    margin: 0;
+    padding: 0;
+    margin:115px 246px 279px 66px ;
+    list-style: none;
+}
+
+
+.advantages_mimi_img{
+    grid-area:advantages_mimi_img;
+    margin: 0;
+    padding:0;
+    list-style: none;
+}
+
+.advantages_flex{
+    grid-area:advantages_flex;
+    margin: 0;
+    padding:0;
+    list-style: none;
+} */
+
+
+
+
+
+
+/* advantages flex vereion          !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!                                 */ 
+
+
+
+
+
+/* .advantages{
+    width:1120px ;
+}
+
+.advantages h2 , .advantages-text{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.advantages-list{
+    display: flex;
+    flex-direction: column;
+    margin:0;
+    padding:0;
+    margin-left:622px ;
+}
+
+
+
+.advantages_flex{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+
+    
+}
+
+.nature h3 , p{
+    margin: 0;
+    padding: 0;
+}
+
+.delivery_in_advantages h3 , p{
+    margin: 0;
+    padding: 0;
+} */
+
+
+
+
+
+
+
+/* contacts !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+
+.contacts{
+
+    display: flex;
+    margin: 0;
+    padding:0;
+    margin-left: 74px;
+    margin-right: 74px;
+    margin-bottom:119px ;
+    width: 1218px;
+
+
+
+}
+
+.contacts_map_img{
+    justify-self:end ;
+    
+}
+
+.contacts_flex_element{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding:0;
+
+}
+
+.contacts_flex_element h2{
+    margin: 0;
+    padding: 0;
+}
+
+.contact-items{
+    margin: 0;
+    padding: 0;
+}
+
+.contact h3 , a{
+    margin: 0;
+    padding: 0;
+}
 

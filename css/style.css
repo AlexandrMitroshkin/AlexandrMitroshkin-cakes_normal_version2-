@@ -109,18 +109,6 @@ h1{
 }
 
 
-
-.reviews_background_img{
-    background-image:url(../img/Ellipse\ 1.jpg);
-    background-repeat: no-repeat;
-    border-radius: 50%;
-    width: 210px;
-    height: 210px;
-    
-
-}
-
-
 .review h3{
     font-weight: 700;
     font-size: 27px;
@@ -131,6 +119,32 @@ h1{
     font-size: 25px;
     line-height: 33px;
 }
+
+
+
+.Ellipse_img{
+    border-radius: 50%;
+    width: 210px;
+    height: 210px;
+}
+
+
+
+.advantages_img1{
+    background-image:url(../img/berries.png) ;
+    width: 556px;
+    height: 622px;
+    background-position: 0 100%;
+
+
+}
+
+/* .advantages_mimi_img{
+    background-image:url(../img/leaf\ \(2\).svg) ;
+    width: 55px;
+
+} */
+ 
 
 .advantages h2 {
     font-weight: 700;
@@ -149,6 +163,16 @@ h1{
 .advantages-list h3{
     font-weight: 700;
 }
+
+
+
+/* .contacts{
+    background-image:url(../img/map.png);
+    background-repeat: no-repeat;
+    height: 100%;
+
+
+} */
 
 .contacts h2{
     font-weight: 700;
