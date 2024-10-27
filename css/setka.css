@@ -43,8 +43,8 @@ body{
 
 
 
-/* promo_Our_cakes (main(promo)) */
 
+/* promo_Our_cakes (section-->promo) */
 
 .promo{
     display: flex;
@@ -96,7 +96,6 @@ body{
 .nature{
     margin: 0;
     padding: 0;
-    margin-right: 40px;
 }
 
 .features_img2{
@@ -107,8 +106,9 @@ body{
 
 
 
-/* catalog/cards */
 
+
+/* catalog !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 
 .catalog h2{
     margin-bottom:55px ;
@@ -165,6 +165,8 @@ body{
     margin-right: 72px;
     margin-left: 328px;
     margin-top:157px ;
+    text-decoration:none ;
+    color:inherit ;
 } 
 
 .links_of_cards1{
@@ -172,172 +174,83 @@ body{
     margin-top:505px ;
     margin-left: 540px;
     text-decoration:none ;
-    text-transform:uppercase;
+    color:inherit ;
 }
 
 
 
 
-/* rewies        */
 
+/* rewies !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!  */
 
-.reviews{
-    margin: 0;
-    padding: 0;
-    display: grid;
-    width: 100%;
-    height: auto;
-    margin-right: 323px;
-    margin-left:323px;
-    grid-template-columns:210px 510px ;
-    grid-template-areas:
-                         "reviews_title_h2 reviews_title_h2"
-                         "Ellipse_img review_title_h3 "
-                         "Ellipse_img review_info_1 "
-                         "Ellipse_img review_info_2";
-    column-gap: 65px;
-    row-gap:50px ;
-    margin-bottom: 115px;
-}
 
 .reviews h2{
     margin: 0;
     padding: 0;
-    grid-area:reviews_title_h2;
-    margin-bottom:50px
-
+    margin: 0 auto;
 }
 
-.Ellipse_img{
-    margin: 0;
+
+.review{
+    width: 720px;
+    margin:0 auto;
     padding: 0;
-    grid-area:Ellipse_img;
-    margin-right:65px ;
-}
-
-.review h3{
-    margin: 0;
-    padding: 0;
-    grid-area:review_title_h3;
-
-}
-
-.review_info_1{
-    margin: 0;
-    padding: 0;
-    grid-area:review_info_1;
-    margin-bottom:19px ;
-    
-}
-
-.review_info_2{
-    margin: 0;
-    padding: 0;
-    grid-area:review_info_2
+    display: flex;
+    gap:65px;
+    justify-content:space-between;
 }
 
 
 
 
-/* advantages grid version            !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!                                 */ 
 
+/* advantages             !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!                                 */ 
 
+.advantages{
+    height: 667px;
+    margin-bottom: 100px;
+}
 
-
-
-/* .advantages_main_grid{
-    display: grid;
-
+.advantages > .title_h2 , .advantages_topest_text{
+    text-align: center;
 }
 
 .advantages-list{
-    width:498px ;
-    height: auto;
-    display: grid;
-    grid-template-columns: 55px 423px;
-
-    grid-template-areas:
-                        "advantages_mimi_img advantages_flex";
-
+    display: flex;
     margin: 0;
     padding: 0;
-    margin:115px 246px 279px 66px ;
-    list-style: none;
+    margin: 115px 246px 279px 622px;
+    list-style:none;
 }
 
+
+.advantages_flex{
+    display: flex;
+    flex-direction: column;
+}
+
+.advantages_flex .advantages_flex_h3 , .advantages_flex_text{
+    margin: 0;
+    padding: 0;
+}
+
+.advantages_flex h3{
+    margin-bottom: 15px;
+}
+
+.nature p{
+    margin-bottom:50px ;
+}
 
 .advantages_mimi_img{
-    grid-area:advantages_mimi_img;
-    margin: 0;
-    padding:0;
-    list-style: none;
+    margin-right: 20px;
 }
-
-.advantages_flex{
-    grid-area:advantages_flex;
-    margin: 0;
-    padding:0;
-    list-style: none;
-} */
-
-
-
-
-
-
-/* advantages flex vereion          !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!                                 */ 
-
-
-
-
-
-/* .advantages{
-    width:1120px ;
-}
-
-.advantages h2 , .advantages-text{
-    text-align: center;
-    margin: 0;
-    padding: 0;
-}
-
-.advantages-list{
-    display: flex;
-    flex-direction: column;
-    margin:0;
-    padding:0;
-    margin-left:622px ;
-}
-
-
-
-.advantages_flex{
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-
-    
-}
-
-.nature h3 , p{
-    margin: 0;
-    padding: 0;
-}
-
-.delivery_in_advantages h3 , p{
-    margin: 0;
-    padding: 0;
-} */
-
-
 
 
 
 
 
 /* contacts !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
-
 
 .contacts{
 
@@ -347,10 +260,7 @@ body{
     margin-left: 74px;
     margin-right: 74px;
     margin-bottom:119px ;
-    width: 1218px;
-
-
-
+    justify-content: space-between
 }
 
 .contacts_map_img{
@@ -363,21 +273,105 @@ body{
     flex-direction: column;
     margin: 0;
     padding:0;
-
 }
 
 .contacts_flex_element h2{
     margin: 0;
     padding: 0;
+    margin-bottom:47px ;
 }
 
-.contact-items{
+.contact_items{
     margin: 0;
     padding: 0;
+    list-style: none;
 }
 
-.contact h3 , a{
+.contact_item h3 {
     margin: 0;
     padding: 0;
+    margin-bottom:5px ;
 }
+
+.contact_item a{
+    display: block;
+    margin: 0;
+    padding: 0;
+    margin-bottom:20px ;
+}
+
+.contact_item address {
+    margin-bottom:20px ;
+}
+
+.contact_item .contact_item_end_title{
+    margin-bottom:10px ;
+}
+
+.social_list{
+    display: flex;
+    padding:0 ;
+    margin: 0;
+    list-style:none ;
+}
+
+.contact_item .social_item a:nth-child(1) ,  .contact_item .social_item a:nth-child(2){
+    margin: 0;
+}
+
+.social_item{
+    margin-right:25px ;
+}
+
+
+
+
+/* footer !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+
+
+.footer_flex{
+    display:flex;
+    justify-content:space-between;
+    margin: 0;
+    padding: 0;
+    /* margin:50px 74px 100px 74px ; */
+    margin-bottom:100px ;
+    margin-right:74px ;
+    margin-left:74px ;
+    /* margin-top:50px ; */
+    /* box-sizing: border-box;
+    height: 20px; */
+    
+}
+
+.footer_navigation{
+    padding:0;
+    display:flex;
+    justify-content:space-between;
+    width: 722px;
+}
+
+.footer_flex p{
+    margin-right:30px ;
+}
+
+.footer_navigation a{
+    /* display: block; */
+    margin-right:10px ;
+    /* margin-top:50px ; */
+
+}
+
+.footer_navigation_item_end_link{
+    margin-right:0;
+}
+
+.copyright{
+    text-align: center;
+    margin: 0;
+}
+
+
+
 
